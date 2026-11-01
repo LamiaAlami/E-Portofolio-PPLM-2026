@@ -1,0 +1,11 @@
+# Original evidence dump: keep raw classroom documentation out of Git.
+/Dokumentasi/
+
+# Do not commit private student records or account exports.
+*.xlsx
+*.xls
+*.csv
+*.sb3
+*.zip
+Thumbs.db
+.DS_Store
