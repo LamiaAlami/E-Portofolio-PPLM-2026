@@ -17,13 +17,13 @@ Then visit `http://localhost:8000`.
 - `DESIGN.md` — editorial visual direction and interaction principles for the portfolio.
 - `INVENTAR-EPORTOFOLIO.md` — current requirement inventory, evidence status, and remaining work.
 - `index.html` — shared profile and portfolio landing page.
-- `portfolio-1.html` — E-Portfolio 1, guided-teaching context and independent-teaching Cycle 1.
+- `portfolio-1.html` — E-Portfolio 1, guided-teaching context, independent-teaching Cycle 1, and a student-project case study for P5.
 - `portfolio-2.html` — E-Portfolio 2, Cycles 2–4.
 - `assets/` — shared styles and the small mobile-navigation script.
 - `dokumen/modul/` — lesson modules for Meetings 1–9.
 - `dokumen/refleksi/` — signed Cycle 1–4 reflection documents (LK4S1–LK4S4).
 - `dokumen/instrumen/` — completed and scored Lampiran 7 (lesson-plan design reviews P1–P9) and Lampiran 8 (independent-teaching reviews Cycles 1–4).
-- `dokumentasi-terkurasi/` — selected portfolio media, including five rendered MP4 compilations and 24 optimized still photographs grouped by meeting and non-teaching duty. Raw classroom footage and student-identifiable working files remain outside the site.
+- `dokumentasi-terkurasi/` — selected portfolio media, including five rendered MP4 compilations, 24 optimized activity photographs, and four screenshots for the Nusantara Lost Archive student-project case study. Raw classroom footage and student-identifiable working files remain outside the site.
 
 ## Evidence and privacy notes
 
@@ -33,6 +33,7 @@ Then visit `http://localhost:8000`.
 - Assessment descriptions distinguish the written rubrics from the flexible progress-monitoring approach used in practice.
 - Five rendered video compilations are embedded in the relevant portfolio sections. The Cycle 2 P7 compilation has nine timestamp anchors based on the meeting observation notes. Do not add the raw source clips to this repository.
 - Selected still photos are embedded at P2, P3, P4, P7, and P9. The non-teaching section includes the 17 August school activities, Piket Menyapa Pagi, Piket Literasi (18 August 2026), and Piket UKS. No still photo is used for Cycle 4.
+- The P5 student-project case study “Nusantara Lost Archive” is in `portfolio-1.html`, with four optimized WebP screenshots under `dokumentasi-terkurasi/karya-peserta-didik/`. The project and two explanatory PDFs are linked through the user's Google Drive folder rather than copied into the public repository.
 - Curated photos are orientation-corrected, resized/compressed, and saved without EXIF metadata; still confirm school/community permissions before public deployment.
 - The teaching-philosophy notes in `INVENTAR-EPORTOFOLIO.md` draw on a separate Seminar PPG reflection as context only; Seminar PPG's 4C framework is not a requirement for this PPL Mandiri portfolio.
 - Before public deployment, check permissions for any later-added photos, student work, faces, names, or account links.

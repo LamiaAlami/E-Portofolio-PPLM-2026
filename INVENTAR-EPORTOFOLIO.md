@@ -1,7 +1,7 @@
 # Inventaris E-Portofolio PPLM 2026
 
-**Pemeriksaan:** 1 November 2026  
-**Status:** inventaris kondisi situs setelah lima video, timestamp Siklus 2, serta foto kegiatan kelas dan nonmengajar terkurasi dipasang.
+**Pemeriksaan:** 3 November 2026  
+**Status:** inventaris kondisi situs setelah lima video, foto kegiatan kelas dan nonmengajar, serta studi kasus karya peserta didik dengan empat screenshot terkurasi dipasang.
 
 ## 1. Artefak yang sudah tersedia di proyek
 
@@ -13,6 +13,7 @@
 | Instrumen evaluasi Guru Pamong | 2 PDF | Lampiran 7 (36 halaman) dan Lampiran 8 (16 halaman), sudah dinilai dan ditandatangani |
 | Video kompilasi | 5 MP4 | LK3 P1–P2, Siklus 1, Siklus 2, Siklus 3, dan Siklus 4; total durasi sekitar 27 menit 32 detik |
 | Foto terkurasi | 24 JPG | P2, P3, P4, P7, P9, kegiatan 17 Agustus, Piket Menyapa Pagi, dan Piket Literasi |
+| Screenshot karya peserta didik | 4 WebP | Nusantara Lost Archive: ruang arsip, identifikasi motif, learning card, dan quiz room |
 
 Semua video sudah ditempatkan pada folder media terkurasi dan dipasang pada halaman yang sesuai. Video Siklus 2 berdurasi 12:26. Penjelasannya mengikuti sembilan titik rujuk pada catatan pengamatan: 00:00 pembukaan; 00:25 kehadiran; 01:05 penguasaan kelas; 01:20 tujuan pembelajaran; 01:30 apersepsi; 02:05 deskripsi proyek; 04:10 aturan proyek; 07:18 jadwal delapan minggu, milestone, dan asesmen; serta 11:13 pendampingan. Timestamp merupakan titik rujuk, bukan batas pemotongan yang presisi.
 
@@ -32,7 +33,7 @@ Catatan status LMS PPL Mandiri per 1 November 2026: LK4.1–LK4.4 pada Topik 4 b
 | Kegiatan nonmengajar | **Sebagian besar terpenuhi** | Kegiatan 17 Agustus, Piket Menyapa Pagi, Piket Literasi (18 Agustus), dan Piket UKS sudah dijelaskan. Tiga foto tersedia untuk tiga kegiatan pertama. |
 | Instrumen dan hasil asesmen | **Sebagian terpenuhi** | Lampiran 7–8, rubrik produk P5, rubrik monitoring P9, serta informasi kuis P1–P4 telah dijelaskan. Hasil kuis belum dirangkum secara agregat pada situs; rekap monitoring P9 hanya terisi untuk dua minggu awal dan nilai produk akhir tidak tersedia. |
 | Refleksi empat siklus | **Sebagian besar terpenuhi** | Empat LK4 tersedia dan analisis lintas siklus sudah ada. Narasi web masih perlu menghubungkan klaim refleksi dengan bukti atau artefak spesifik secara lebih konsisten. Format 4C dari Seminar PPG tidak digunakan sebagai kriteria untuk tugas PPL Mandiri ini. |
-| Contoh karya peserta didik | **Belum terpenuhi** | Belum ada berkas proyek `.sb3` atau contoh karya yang sudah mendapat izin publikasi pada folder proyek. |
+| Contoh karya peserta didik | **Studi kasus dan galeri terpasang** | Bagian “Nusantara Lost Archive” pada E-Portfolio 1 kini memuat empat screenshot antarmuka (ruang arsip, identifikasi, learning card, dan quiz room) serta tautan folder Drive berisi `.sb3` dan dua PDF. Pastikan persetujuan peserta didik/wali dan pengaturan akses folder sebelum publikasi umum. File `.sb3` menggunakan ekstensi PictoBlox sehingga tidak dijanjikan dapat dimainkan langsung di Scratch web. |
 | Filosofi mengajar dan refleksi profesional | **Sebagian terpenuhi** | Situs sudah menyebut praktik yang adaptif dan reflektif serta beberapa tindak lanjut. Refleksi Semester I pada dokumen Seminar PPG dapat menjadi sumber konteks untuk merumuskan prinsip mengajar, tetapi bukan rubrik atau persyaratan PPL Mandiri. Narasi akhir PPL masih perlu dibuat lebih spesifik berdasarkan pengalaman empat siklus dan bukti yang tersedia. |
 | Publikasi website dan pengumpulan UTS/UAS | **Belum terpenuhi** | Situs masih berupa proyek lokal dan preview `localhost:8766`. UTS dan UAS LMS merupakan titik pengumpulan E-Portfolio; tautan baru dapat dikirim setelah situs dipublikasikan. |
 
@@ -55,25 +56,37 @@ Siklus 4 didokumentasikan melalui video montase Malang Heritage.
 
 Kegiatan 17 Agustus, Piket Menyapa Pagi, dan Piket Literasi masing-masing dilengkapi tiga foto. Foto 17 Agustus berasal dari snapshot video dan memuat penanda tanggal 17 Agustus 2026. Piket Literasi dilaksanakan pada 18 Agustus 2026. Piket UKS juga tercatat sebagai bagian dari kegiatan nonmengajar. Folder Kokurikuler 13 Oktober dan 19 Oktober tidak berisi foto yang dapat dipilih.
 
-## 5. Catatan interpretasi dan privasi
+## 5. Artefak karya peserta didik yang diterima
+
+Satu karya telah diterima pada folder sumber `PPLM E-Portofolio/Student Project Artifact`, terdiri atas satu proyek PictoBlox (`.sb3`) dan dua PDF pendukung: presentasi konsep **Nusantara Lost Archive** serta dokumentasi pelatihan model klasifikasi. Empat screenshot antarmuka dari subfolder `Screenshots` telah dikurasi ke WebP dan dipasang pada studi kasus di E-Portfolio 1: ruang arsip, identifikasi motif, learning card, dan quiz room. Total ukuran empat screenshot terkurasi sekitar 1,2 MB.
+
+Pemeriksaan statis terhadap `.sb3` menunjukkan 25 target (Stage dan 24 sprite), model klasifikasi citra tersimpan dengan feature extractor bergaya MobileNetV2 dan kepala keluaran 15 kelas, serta blok ekstensi `machineLearningEnvironment`, `chatGpt`, dan `tableui`. Metadata proyek menunjukkan `pictobloxVersion: 1` dan nama model `nusantara batik ai`. Dokumen pelatihan memperlihatkan 15 label batik dengan sekitar 20–29 contoh gambar per kelas (324 sampel seluruhnya). Alur yang dirancang mencakup identifikasi motif, pembuatan learning card, pembuatan soal pilihan ganda, pemeriksaan jawaban, dan pemulihan arsip.
+
+P5 merupakan tugas proyek Scratch bebas berskala kecil. Karya ini memperluas ruang lingkup tersebut dengan menggabungkan klasifikasi citra, generative AI, materi budaya, dan mekanisme permainan. Metadata model mencatat penyimpanan pada 1 September 2026 pukul 23.16 WIB; file proyek tercatat dimodifikasi 4 September dan PDF presentasi dibuat 8 September. Urutan ini konsisten dengan pengembangan lanjutan setelah pembelajaran, meskipun timestamp file tidak membuktikan seluruh riwayat pengerjaan.
+
+Penilaian teknis masih perlu memperhatikan beberapa hal. Grafik pelatihan menunjukkan akurasi pelatihan mencapai 100% sangat awal, tetapi belum ada bukti pengujian pada data terpisah atau gambar baru. Selain itu, pemeriksaan jawaban meminta LLM menentukan benar/salah tanpa kunci jawaban eksplisit, sehingga akurasi penilaian perlu diuji. Prompt pembuat soal hanya menerima nama arsip saat ini, sedangkan presentasi menyebut soal dibuat berdasarkan learning card; hubungan tersebut belum terlihat pada blok yang diperiksa. Presentasi membagi proses menjadi lima tahap AI, tetapi kode yang diperiksa memperlihatkan satu model klasifikasi citra dan tiga pemanggilan ChatGPT; tahap umpan balik akhir disajikan melalui logika Scratch.
+
+Proyek menggunakan ekstensi PictoBlox `chatGpt`, `machineLearningEnvironment`, dan `tableui`. File belum dijalankan langsung dalam runtime yang mendukung ekstensi tersebut; pemeriksaan saat ini berdasarkan struktur proyek dan dokumen pendukung. Satu contoh ini tidak boleh diperlakukan sebagai representasi kemampuan seluruh kelas. Presentasi memuat identitas pembuat; izin publikasi dan pengaturan akses Drive perlu dipastikan sebelum tautan folder dibuka untuk umum.
+
+## 6. Catatan interpretasi dan privasi
 
 - Rekap nilai peserta didik dan respons Google Forms mentah sengaja tidak dipublikasikan. Bila hasil asesmen akan ditampilkan, gunakan ringkasan anonim dan jelaskan bila skala/tes antarkuis berbeda.
 - Rekap monitoring P9 tidak boleh digambarkan sebagai hasil akhir proyek. Catatan yang tersedia hanya mencakup dua minggu awal; penilaian produk akhir belum tersedia.
-- Karya Scratch peserta didik hanya boleh ditampilkan setelah file benar-benar diterima dan izin publikasi serta penyamaran identitas dipastikan.
+- Karya peserta didik yang dipilih hanya boleh dibuka untuk umum setelah izin publikasi serta pengaturan identitas dan akses berkas dipastikan.
 - Arsip dokumentasi mentah tetap berada di folder sumber. Hanya media terpilih yang telah diperiksa yang ditempatkan pada `dokumentasi-terkurasi/`.
 - Salinan foto situs telah diorientasikan sesuai metadata kamera, dikompresi, dan disimpan ulang tanpa EXIF. Sebelum publikasi, pastikan izin penggunaan dokumentasi yang masih dapat memperlihatkan peserta didik atau warga sekolah.
 - Ada potensi ketidaksesuaian rentang tanggal pada kompilasi sumber `Laporan Refleksi PPLM.pdf`: header LK4S1 mencantumkan 17 Agustus–2 September, LK4S2 7–21 September, LK4S3 28 September–14 Oktober, dan LK4S4 19–29 Oktober 2026. Rentang ini tidak sepenuhnya sama dengan tanggal pertemuan yang sudah dikonfirmasi untuk linimasa situs. Pastikan salinan LK4 bertanda tangan yang akan dikumpulkan menggunakan rentang tanggal yang benar. Jangan mengubah tanggal pada dokumen bertanda tangan tanpa konfirmasi sumber.
 
-## 6. Konteks filosofi mengajar dari refleksi lain
+## 7. Konteks filosofi mengajar dari refleksi lain
 
 Dokumen `LK2_Refleksi_Pengalaman_Belajar_Semester_I.docx` dari pekerjaan Seminar PPG dapat digunakan sebagai konteks untuk memahami prinsip mengajar yang telah dirumuskan sebelumnya, bukan sebagai rubrik atau persyaratan PPL Mandiri. Sintesis di dalam dokumen tersebut menekankan bahwa guru Informatika perlu menguasai materi dan teknologi sekaligus memahami peserta didik, menghidupkan nilai, merancang pembelajaran bermakna, mengelola kelas secara adaptif, dan merefleksikan praktik profesional.
 
 Beberapa prinsip yang relevan untuk mengontekstualisasikan refleksi PPL adalah pendidikan nilai dan etika digital; perhatian terhadap karakteristik, kebutuhan, serta akses peserta didik; keselarasan tujuan, kegiatan, dan asesmen; pemberian scaffolding dan umpan balik yang memungkinkan peserta didik memperbaiki kesalahan; serta pengembangan cara berpikir sistematis. Prinsip-prinsip ini dapat dihubungkan dengan bukti pada empat siklus PPL tanpa memaksakan model 4C atau persyaratan Seminar PPG ke dalam tugas ini.
 
-## 7. Prioritas penuntasan
+## 8. Prioritas penuntasan
 
 1. Konfirmasi dan tandai perangkat ajar utama P4, P7, dan P9. Siklus 4 sudah diposisikan sebagai bukti pelaksanaan kokurikuler, bukan modul ajar kelas yang terpisah.
-2. Lengkapi contoh karya Scratch siswa ketika berkas diterima, setelah izin publikasi dan penyamaran identitas dipastikan.
+2. Konfirmasi izin penggunaan screenshot/karya siswa dan akses folder Drive sebelum publikasi umum.
 3. Tambahkan ringkasan anonim hasil kuis/asesmen yang skalanya jelas; pertahankan batasan pada rekap P9.
 4. Tambahkan tautan ke website pembelajaran yang memang digunakan dan relevan.
 5. Perjelas prinsip mengajar dan refleksi akhir PPL melalui pengalaman empat siklus; hubungkan setiap klaim dengan bukti atau artefak yang relevan.
